@@ -1,0 +1,57 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin" android:background="#222">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageTempIn"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageTempOut"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageHumidity"
+        android:layout_row="0"
+        android:layout_column="2" />
+
+    <TextView
+        android:id="@+id/temp_in"
+        android:text="25"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/appwidget_text"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <TextView
+        android:id="@+id/temp_out"
+        android:text="-5"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/appwidget_text"
+        android:layout_row="1"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:text="63%"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/appwidget_text"
+        android:layout_row="1"
+        android:layout_column="2" />
+
+</GridLayout>
