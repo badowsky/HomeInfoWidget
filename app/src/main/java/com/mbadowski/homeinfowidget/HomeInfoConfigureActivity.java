@@ -62,8 +62,8 @@ public class HomeInfoConfigureActivity extends Activity {
             saveTitlePref(context, mAppWidgetId, widgetText);
 
             // It is the responsibility of the configuration activity to update the app widget
-            AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
-            HomeInfo.updateAppWidget(context, appWidgetManager, mAppWidgetId);
+            //AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
+            //HomeInfo.updateAppWidget(context, appWidgetManager, mAppWidgetId);
 
             // Make sure we pass back the original appWidgetId
             Intent resultValue = new Intent();
